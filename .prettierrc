@@ -1,0 +1,11 @@
+{
+  "endOfLine": "lf",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "printWidth": 90,
+  "arrowParens": "always",
+  "useTabs": false,
+  "parser": "typescript",
+  "vueIndentScriptAndStyle": true
+}

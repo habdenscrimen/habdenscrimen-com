@@ -1,0 +1,27 @@
+{
+  "name": "habdenscrimen-com",
+  "version": "1.0.0",
+  "description": "Viacheslav Yefremov's blog",
+  "main": "index.js",
+  "repository": "git@github.com:habdenscrimen/habdenscrimen-com.git",
+  "author": "Viacheslav Yefremov <habdenscrimen@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vuepress dev . --port 1234",
+    "build": "vuepress build .",
+    "format": "prettier --write './**/*.{ts,tsx,js,jsx}'"
+  },
+  "dependencies": {
+    "@vuepress/theme-blog": "https://github.com/habdenscrimen/vuepress-theme-blog",
+    "vuepress": "^1.5.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@types/node": "^13.13.5",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.0.5"
+  }
+}
