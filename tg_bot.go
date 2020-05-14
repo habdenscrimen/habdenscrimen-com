@@ -22,7 +22,7 @@ func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResp
 	githubBaseURL := "https://api.github.com/repos/habdenscrimen/habdenscrimen-com/contents/_posts"
 
 	// get last post file from GitHub repo
-	file, err := getLastPostFile(githubBaseURL, "2b561ce69dd3e8671224759da627b04d4fadd1dd")
+	file, err := getLastPostFile(githubBaseURL, os.Getenv("GITHUB_ACCESS_TOKEN"))
 	if err != nil {
 		fmt.Println(err)
 		return &events.APIGatewayProxyResponse{
