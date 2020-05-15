@@ -19,6 +19,7 @@ module.exports = {
       contact: [],
       copyright: [],
     },
+    telegramLink: 'https://t.me/habdenscrimen_com',
   },
   plugins: [
     [

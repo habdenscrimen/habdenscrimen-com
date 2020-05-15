@@ -1151,6 +1151,19 @@
     semver "^6.0.0"
     upath "^1.1.0"
 
+"@vuepress/theme-blog@file:../../vuepress-theme-blog":
+  version "2.2.0"
+  dependencies:
+    "@vuepress/plugin-blog" "^1.9.2"
+    "@vuepress/plugin-medium-zoom" "1.0.0"
+    "@vuepress/plugin-nprogress" "1.0.0"
+    "@vuepress/plugin-pwa" "1.0.0"
+    "@vuepress/plugin-search" "1.0.0"
+    dayjs "^1.8.19"
+    remove-markdown "^0.3.0"
+    vue-feather-icons "^4.21.0"
+    vuepress-plugin-smooth-scroll "^0.0.9"
+
 "@vuepress/theme-blog@https://github.com/habdenscrimen/vuepress-theme-blog":
   version "2.2.0"
   resolved "https://github.com/habdenscrimen/vuepress-theme-blog#22cb3f229b716c978dda6d1b302a2b5e0b922ca4"

@@ -20,7 +20,7 @@ type GithubFile struct {
 
 func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 	githubBaseURL := "https://api.github.com/repos/habdenscrimen/habdenscrimen-com/contents/_posts"
-	mainURL := "https://habdenscrimen.netlify.app/"
+	mainURL := "https://habdenscrimen.com/"
 
 	// get last post file from GitHub repo
 	file, err := getLastPostFile(githubBaseURL, os.Getenv("GITHUB_ACCESS_TOKEN"))
