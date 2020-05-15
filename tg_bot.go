@@ -20,6 +20,7 @@ type GithubFile struct {
 
 func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 	githubBaseURL := "https://api.github.com/repos/habdenscrimen/habdenscrimen-com/contents/_posts"
+	mainURL := "https://habdenscrimen.netlify.app/"
 
 	// get last post file from GitHub repo
 	file, err := getLastPostFile(githubBaseURL, os.Getenv("GITHUB_ACCESS_TOKEN"))
@@ -31,7 +32,7 @@ func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResp
 	}
 
 	// form URL for the last post
-	postURL := "https://habdenscrimen.netlify.app/" + strings.Replace(strings.ReplaceAll(file.Name, ".md", ""), "-", "/", 3)
+	postURL := mainURL + strings.Replace(strings.ReplaceAll(file.Name, ".md", ""), "-", "/", 3)
 	fmt.Println(postURL)
 
 	// parse chatID from env variable

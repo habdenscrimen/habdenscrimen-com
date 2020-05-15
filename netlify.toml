@@ -1,3 +1,6 @@
 [build]
-  command = "make build_bot && make build_site"
+  command = "make build_site"
   functions = "functions"
+
+[context.blog]
+  command = "make build_bot"
