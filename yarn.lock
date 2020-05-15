@@ -1153,7 +1153,7 @@
 
 "@vuepress/theme-blog@https://github.com/habdenscrimen/vuepress-theme-blog":
   version "2.2.0"
-  resolved "https://github.com/habdenscrimen/vuepress-theme-blog#094df3c8265260e03dae3a6793d911768e171197"
+  resolved "https://github.com/habdenscrimen/vuepress-theme-blog#2d76c5e26564db90286f3412b9f2752f77e46b6d"
   dependencies:
     "@vuepress/plugin-blog" "^1.9.2"
     "@vuepress/plugin-medium-zoom" "1.0.0"
