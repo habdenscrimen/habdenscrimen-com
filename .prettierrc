@@ -6,6 +6,5 @@
   "printWidth": 90,
   "arrowParens": "always",
   "useTabs": false,
-  "parser": "typescript",
   "vueIndentScriptAndStyle": true
 }

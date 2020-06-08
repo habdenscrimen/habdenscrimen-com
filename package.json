@@ -10,16 +10,15 @@
   "scripts": {
     "dev": "vuepress dev . --port 1234",
     "build": "vuepress build .",
-    "format": "prettier --write './**/*.{ts,tsx,js,jsx}'"
+    "format": "prettier --write './**/*.{js,jsx}'"
   },
   "dependencies": {
     "@vuepress/theme-blog": "https://github.com/habdenscrimen/vuepress-theme-blog",
     "vuepress": "^1.5.0"
   },
   "devDependencies": {
-    "@types/node": "^14.0.1",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.2",
+    "lint-staged": "^10.2.9",
     "prettier": "^2.0.5"
   }
 }
