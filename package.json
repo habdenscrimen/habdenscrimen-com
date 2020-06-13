@@ -13,7 +13,7 @@
     "format": "prettier --write './**/*.{js,jsx}'"
   },
   "dependencies": {
-    "@vuepress/theme-blog": "https://github.com/habdenscrimen/vuepress-theme-blog",
+    "@vuepress/theme-blog": "git+https://github.com/habdenscrimen/vuepress-theme-blog.git",
     "vuepress": "^1.5.0"
   },
   "devDependencies": {
